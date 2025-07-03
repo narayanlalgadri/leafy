@@ -269,11 +269,19 @@ height: auto;
 
 @media (max-width: 768px) {
 
-  .myheader, nav {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
+  .myheader{
+    flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
 
   .container,
   .container1,
