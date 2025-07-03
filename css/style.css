@@ -266,3 +266,58 @@ height: auto;
     background-color: white;
     border-top: 1px solid #3d3c3cd1;
 }
+
+@media (max-width: 768px) {
+
+  .myheader, nav {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .container,
+  .container1,
+  .container2 {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  .box {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .homepageimg {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 0;
+  }
+
+  .smallbox1 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .smallbox {
+    width: 90%;
+    margin: 15px auto;
+  }
+
+  .socialmedialinks {
+    justify-content: center;
+    margin-left: 0;
+  }
+
+  .navigation {
+    display: block;
+    margin: 8px auto;
+    text-align: center;
+  }
+
+  .myfooter {
+    margin-left: 0;
+    text-align: center;
+    margin-top: 40px;
+  }
+}
