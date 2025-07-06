@@ -244,8 +244,8 @@ height: auto;
     justify-content: space-between;
     background-color: rgba(207, 235, 187, 0.6);
     width: 100%;
-    max-width: 1330px;
-    padding: 20px;
+/*     max-width: 1330px; */
+    padding: 10px;
     margin: 20px auto;
     border-radius: 16px;
     box-shadow: 6px 4px 8px rgba(0, 0, 0, 0.1);
