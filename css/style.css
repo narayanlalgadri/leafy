@@ -10,19 +10,16 @@ body {
     padding: 0;
     margin: 0;
    position: relative;
-   min-width: 100%;
+   overflow-x: hidden;
 }
 
 .myheader {
     align-items: left;
     display: flex;
     width: 100%;
-    max-width: 1150px;
     margin-top: 10px auto;
-    margin-left: 70px;
     background-color: white;
     border: #333;
-    padding: 10px 20px;
     border-bottom: 1px solid #eee;
 
 }
@@ -52,7 +49,6 @@ height: auto;
      display: inline-flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    /* padding-right: 20px; */
     background-color: rgba(207, 235, 187, 0.6);
     width: 100%;
     margin: 20px auto;
@@ -140,11 +136,8 @@ height: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    /* padding: 10px; */
     background-color: rgba(207, 235, 187, 0.6);
     width: 100%;
-    /* max-width: 1300px; */
-    /* margin: 20px auto; */
     border-radius: 16px;
     box-shadow: 6px 4px 8px rgba(0, 0, 0, 0.1);
 
@@ -168,7 +161,8 @@ height: auto;
     padding: 20px;
     background-color: rgba(55, 70, 44, 0.6);
     height: 90%;
-    width: 256px;
+    width: 100%;
+    max-width: 256px;
     max-height: 280px;
     border-radius: 16px;
     box-shadow: 6px 4px 8px rgba(0, 0, 0, 0.1);
@@ -196,7 +190,8 @@ height: auto;
 
 .products {
     padding: 3px;
-    width: 247px;
+    width: 100;
+    max-width: 247px;
     object-fit: cover;
 }
 
@@ -244,7 +239,6 @@ height: auto;
     justify-content: space-between;
     background-color: rgba(207, 235, 187, 0.6);
     width: 100%;
-/*     max-width: 1330px; */
     padding: 10px;
     margin: 20px auto;
     border-radius: 16px;
@@ -273,9 +267,7 @@ height: auto;
     color: rgb(83, 82, 82);
     width: 100%;
     text-align: center;
-    max-width: 1150px;
     margin-top: 150px;
-    margin-left: 70px;
     background-color: white;
     border-top: 1px solid #3d3c3cd1;
 }
