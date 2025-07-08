@@ -12,7 +12,8 @@ This project showcases decorative indoor and outdoor plants with elegant UI sect
 - Custom footer with "All Rights Reserved"
 
 ## 🚀 Live Preview
-[Coming Soon or Add Link]
+https://leafy-greennest.netlify.app/
+
 
 ## 📁 Tech Used
 - HTML5
