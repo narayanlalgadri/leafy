@@ -18,8 +18,3 @@ This project showcases decorative indoor and outdoor plants with elegant UI sect
 - HTML5
 - CSS3 (Flexbox, custom styling)
 
-## 📸 Screenshots
-_Add screenshots folder or upload images here_
-
-## 📄 License
-© 2025 Leafy. All rights reserved.
